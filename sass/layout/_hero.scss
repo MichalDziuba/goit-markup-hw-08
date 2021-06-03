@@ -1,0 +1,71 @@
+@media screen and(min-width:320px) and(max-width:767px) {
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-bg-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: rgba(47, 48, 58, 1);
+    color: var(--white);
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-align: center;
+  font-size: 26px;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
+  min-width: 480px;
+  
+}    
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:320px) and (max-width:767px),
+screen and (min-resolution: 192dpi) and (min-width:320px) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (min-width:320px) and(max-width:767px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/Hero-bg-mobile@2x.jpg );
+        background-size:cover;
+        min-width: 480px;
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px) ,
+screen and (min-resolution: 192dpi) and (min-width:768px),
+screen and (min-resolution: 2dppx) and (min-width:768px)  {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/Hero-bg-tablet@2x.jpg );
+        background-size: cover;
+        min-width: 768px;
+    }
+}
+
+@media screen and(min-width: 768px) and(max-width:1199px) {
+     .hero {
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-bg-tablet.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-color: rgba(47, 48, 58, 1);
+         color: var(--white);
+         font-weight: 900;
+         letter-spacing: 0.06em;
+         font-size: 26px;
+         line-height: 1.61;
+         text-align: center;
+         width: 100%;
+     }
+     }
+
+@media screen and(min-width: 1200px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(47, 48, 58, 1);
+        color: var(--white);
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        width: 100%;
+    }
+}

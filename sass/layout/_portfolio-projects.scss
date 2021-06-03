@@ -1,0 +1,293 @@
+@media screen and(min-width:320px) and(max-width:767px) {
+.projects {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    &_tittle {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.55;
+        letter-spacing: 0.06em;
+        color: black;
+        margin-left: 20px;
+    }
+
+    &_box {
+        position: relative;
+        width: 450px;
+        height: 294px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        
+    
+    }
+
+    &_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 101%;
+        background-color: var(--main-color);
+        transform: translatey(100%);
+        transition: transform 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &_cards {
+        display: block;
+        list-style: none;
+       
+    }
+
+    &_description {
+        margin-left: 20px;
+    }
+}
+.projects_description {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.project_box_image{
+    width: 450px;
+    height: 294px;
+}
+.projects_link {
+    text-decoration: none;
+}
+
+.projects_items {
+    margin-right: 24px;
+    width: 450px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    margin-top: 30px;
+
+    &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: transform 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+
+.projects_box:hover .projects_overlay {
+    transform: translatex(0);
+    width: 450px;
+    height: 294px;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.projects_overlay_description {
+    color: var(--white);
+    margin: 77px 24px 477px 24px;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+}
+@media screen and(min-width: 768px) and(max-width:1199px) {
+    .projects {
+       min-width: 768px;
+       max-width: 1199px;
+       margin-top: -60px;
+
+        &_tittle {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            color: black;
+            margin-left: 20px;
+        }
+
+        &_box {
+            position: relative;
+            width: 354px;
+            overflow: hidden;
+           
+        }
+
+        &_overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 101%;
+            background-color: var(--main-color);
+            transform: translatey(100%);
+            transition: transform 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &_cards {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+             display: flex;
+             margin-left: -10px;
+             margin-top: -30px;
+            
+        }
+
+        &_description {
+            margin-left: 20px;
+        }
+    }
+.project_box_image{
+    width: 354px;
+    height: 294px;
+
+}
+    .projects_description {
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.03em;
+        color: var(--secondary-color);
+    }
+
+    .projects_link {
+        text-decoration: none;
+    }
+
+    .projects_items {
+        margin-left: 15px;
+        margin-top: 30px;
+          flex-basis: calc(100% / 2 - 10px);
+        border: 1px solid rgba(238, 238, 238, 1);
+        
+        
+
+        &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            transition: transform 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+
+    .projects_box:hover .projects_overlay {
+        transform: translatex(0);
+        width: 354px;
+        height: 294px;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+    .projects_overlay_description {
+        color: var(--white);
+        margin: 49px 45px 49px 24px;
+        font-family: var(--main-font);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.55;
+        letter-spacing: 0.03em;
+        text-align: left;
+    }
+}
+@media screen and(min-width: 1200px) {
+  .projects {
+      padding-bottom: 50px;
+      padding-top: 50px;
+
+      &_tittle {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 2;
+          letter-spacing: 0.06em;
+          color: black;
+          margin-left: 20px;
+      }
+
+      &_box {
+          position: relative;
+          width: 370px;
+          height: 294px;
+          margin-left: auto;
+          margin-right: auto;
+          overflow: hidden;
+      }
+
+      &_overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 101%;
+          background-color: var(--main-color);
+          transform: translatey(100%);
+          transition: transform 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      &_cards {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: -30px;
+          margin-left: -30px;
+          list-style: none;
+      }
+
+      &_description {
+          margin-left: 20px;
+      }
+  }
+
+  .projects_description {
+      font-size: 16px;
+      line-height: 1.875;
+      letter-spacing: 0.03em;
+      color: var(--secondary-color);
+  }
+
+  .projects_link {
+      text-decoration: none;
+  }
+
+  .projects_items {
+      margin-right: 24px;
+      margin-bottom: 30px;
+      border: 1px solid rgba(238, 238, 238, 1);
+      flex-basis: calc(100% / 3 - 30px);
+      margin-top: 30px;
+
+      &:hover {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          transition: transform 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+  }
+
+
+  .projects_box:hover .projects_overlay {
+      transform: translatex(0);
+      width: 370px;
+      height: 294px;
+      transition: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+  .projects_overlay_description {
+      color: var(--white);
+      margin: 49px 45px 49px 24px;
+      font-family: var(--main-font);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.55;
+      letter-spacing: 0.03em;
+      text-align: left;
+  }
+}

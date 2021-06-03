@@ -1,0 +1,43 @@
+body {
+    color: var(--third-color);
+    font-family: var(--main-font), var(--secondary-font);
+    background-color: var(--white);
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+}
+@media screen and(min-width:1200px){
+body {
+    color: var(--third-color);
+    font-family: var(--main-font), var(--secondary-font);
+    background-color: var(--white);
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+}
+}
+
+
+

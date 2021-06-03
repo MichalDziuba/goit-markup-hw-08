@@ -1,0 +1,271 @@
+@media screen and(min-width:320px) and (max-width:767px) {
+.joinus_tittle {
+    margin-top: 0;
+    width: 113px;
+    padding-left: 167px;
+    margin-bottom: 20px;
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.joinus_list {
+    display: flex;
+    margin-left: 130px;
+
+    &_logo {
+        list-style-type: none;
+        display: flex;
+        max-width: 44px;
+        margin-right: 10px;
+    }
+}
+
+.joinus_list_logo use {
+    display: flex;
+    transform: translate(25%, 25%);
+}
+
+.joinus_list_logo--facebook {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.joinus_list_logo--twitter {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.joinus_list_logo--instagram {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.joinus_list_logo--linkedin {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+}
+@media screen and(min-width: 768px) and(max-width:1199px) {
+    .joinus_tittle {
+        margin-top: 0;
+        width: 113px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+        color: var(--white);
+        font-family: var(--main-font);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+
+    .joinus_list {
+        display: flex;
+        margin-left: 152px;
+
+        &_logo {
+            list-style-type: none;
+            display: flex;
+            max-width: 44px;
+            margin-right: 10px;
+        }
+    }
+
+    .joinus_list_logo use {
+        display: flex;
+        transform: translate(25%, 25%);
+    }
+
+    .joinus_list_logo--facebook {
+        fill: var(--white);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+
+        &:hover {
+            background-color: var(--main-color);
+            transition: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    .joinus_list_logo--twitter {
+        fill: var(--white);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+
+        &:hover {
+            background-color: var(--main-color);
+            transition: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    .joinus_list_logo--instagram {
+        fill: var(--white);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+
+        &:hover {
+            background-color: var(--main-color);
+            transition: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    .joinus_list_logo--linkedin {
+        fill: var(--white);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+
+        &:hover {
+            background-color: var(--main-color);
+            transition: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+    }
+    .joinus {
+        max-height: 100px;
+    }
+@media screen and(min-width:1200px) {
+.joinus_tittle {
+    margin-top: 0;
+    width: 113px;
+    padding-left: 70px;
+    margin-bottom: 20px;
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+
+
+.joinus_list {
+    display: flex;
+    padding-left: 70px;
+    &_logo {
+        list-style-type: none;
+        display: flex;
+        max-width: 44px;
+        margin-right: 10px;
+    }
+}
+
+.joinus_list_logo use {
+    display: flex;
+    transform: translate(25%, 25%);
+}
+
+.joinus_list_logo--facebook {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.joinus_list_logo--twitter {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.joinus_list_logo--instagram {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.joinus_list_logo--linkedin {
+    fill: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover {
+        background-color: var(--main-color);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+}
+
+
+
+
+
+
+

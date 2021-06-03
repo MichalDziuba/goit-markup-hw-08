@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+  <title>Studio</title>
+  <link href="css/main.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="header_listLinks">
+          <li class= "header_listLinks_link">
+            <a class="header_listLinks_link--mainpage" href="index.html"><span class="webtitle">Web</span>Studio</a>
+          </li>
+          <li class= "header_listLinks_link"><a class="link" href="agency.html">Agencja</a>
+          </li>
+          <li class="header_listLinks_link">
+            <a class="link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="header_listLinks_link"><a class="header_listLinks_link--contacts" href="contacts.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+       <div class="menu_mobile">
+        <button class="menu_modal--open" type="button" mobile-modal-open>
+      <svg class="menu_modal--open-icon"><use href="./images/icons.svg#icon-hamburger"></use></svg>
+    </button>
+  </div>
+      <div class="info">
+        <a class="info_contacts_mail" href="mailto:info@devstudio.com"><svg class="info_icon--mail">
+            <use href="./images/icons.svg#icon-envelope"></use>
+          </svg>info@devstudio.com</a>
+        <a class="info_contacts_tel" href="tel:+48111111111"><svg class="info_icon--tel">
+            <use href="./images/icons.svg#icon-smartphone"></use>
+          </svg>+48 111 111 111</a>
+      </div>
+    </div>
+  </header>
+   <main>
+    <div class="pageinprogress"><img  src="./images/strona_w_budowie.jpg" width="512px" height="193px" /></div> 
+  
+  </main>
+  
+ <footer>
+    <section class="footer">
+      <div class="container">
+        <div class="footer-items">
+          <div>
+            <a class="footer_webtitle" href="/index.html"><span class="webtitle">Web</span>Studio</a>
+            <address class="footer_adress">
+              <p class="footer_adress--place">m. Warszawa, Aleje Jerozolimskie 21</p>
+              <p class="footer_adress--email">info@example.com</p>
+              <p class="footer_adress--tel">+48 111 111 111</p>
+            </address>
+          </div>
+
+          <div class="joinus">
+            <h3 class="joinus_tittle">DOŁĄCZ DO NAS</h3>
+            <ul class="joinus_list">
+              <li class="joinus_list_logo">
+                <a href="#"><svg class="joinus_list_logo--instagram">
+                    <use  href="./images/icons.svg#icon-instagram" width="20px" height="20px"></use>
+                  </svg></a>
+              </li>
+              <li class="joinus_list_logo">
+                <a href="#"><svg class="joinus_list_logo--twitter">
+                    <use  href="./images/icons.svg#icon-twitter" width="20px" height="20px"></use>
+                  </svg></a>
+              </li>
+              <li class="joinus_list_logo">
+                <a href="#"><svg class="joinus_list_logo--facebook">
+                    <use  href="./images/icons.svg#icon-facebook" width="20px" height="20px"></use>
+                  </svg></a>
+              </li>
+              <li class="joinus_list_logo">
+                <a href="#"><svg class="joinus_list_logo--linkedin">
+                    <use  href="./images/icons.svg#icon-linkedin" width="20px" height="20px" ></use>
+                  </svg></a>
+              </li>
+            </ul>
+          </div>
+          <form>
+            <div class="newsletter">
+              <h3 class="newsletter_tittle">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+              <div class="newsletter-wrapper">
+                <input class="newsletter_email" type="email" name="email" placeholder="E-mail" required />
+                <div>
+                  <button class="newsletter_button" type="submit">
+                    Zapisz się
+                    <svg class="newsletter_icon">
+                      <use href="./images/icons.svg#icon-icon-send" width="24px" height="24px"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+    </section>
+  </footer>
+   <div class="container">
+<div class="backdrop is-hidden" mobile-modal>
+        <div class="mobile_modal" >
+  <button class="menu_modal--close" type="button" mobile-modal-close><b>X</b></button>
+  <ul class="menu_modal_list">
+  <li><a class="menu_modal-link" href="agency.html">Agencja </a> </li> 
+  <li><a class="menu_modal-link" href="portfolio.html">Portfolio </a> </li>
+  <li><a class="menu_modal-link" href="contacts.html">Kontakt </a> </li>
+</ul>
+<ul class="menu_modal_info">
+  <li><a class="menu_modal_info--tel" href="tel:+48111111111">+48 111 111 111</a></li>
+  <li><a class="menu_modal_info--mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+</ul>
+<ul class="menu_modal_social">
+  <li><a class="menu_modal_social--instagram" href="#"></a>Instagram</li>
+  <li><a class="menu_modal_social--twitter" href="#"></a>Twitter</li>
+  <li><a class="menu_modal_social--facebook" href="#"></a>Facebook</li>
+  <li><a class="menu_modal_social--linkedin" href="#"></a>LinkedIn</li>
+</ul>
+</div>
+</div>
+</div>
+  <script src="./js/mobile-menu.js"></script>
+  </body>
+  </html>

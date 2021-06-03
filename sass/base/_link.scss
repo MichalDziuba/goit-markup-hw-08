@@ -1,0 +1,30 @@
+.link {
+  display: none;
+  
+}
+@media screen and(min-width: 768px) and(max-width:1199px) {
+  .link {
+    display: inline;
+    text-decoration: none;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.17;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) {
+    .link {
+      display:inline-block;
+        text-decoration: none;
+        color: var(--black);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        line-height: 1.17;
+        position: relative;
+    }
+}
