@@ -1012,14 +1012,6 @@ section {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-bg-tablet@2x.jpg);
-    background-size: cover;
-    min-width: 768px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-bg-tablet.jpg);
@@ -1033,6 +1025,14 @@ section {
     line-height: 1.61;
     text-align: center;
     width: 100%;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-bg-tablet@2x.jpg);
+    background-size: cover;
+    min-width: 768px;
   }
 }
 
@@ -1238,6 +1238,9 @@ section {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients {
+    align-items: center;
+  }
   .clients_title {
     font-size: 28px;
     font-weight: 700;
@@ -1250,15 +1253,13 @@ section {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    margin-top: -10px;
-    margin-left: -10px;
     flex-basis: calc(100%/3 -10px);
     border-radius: 4px;
     fill: #afb1b8;
   }
   .clients-logo_image {
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
     width: 226px;
     height: 92px;
     fill: #afb1b8;
@@ -1777,7 +1778,8 @@ section {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
+    padding-left: 42px;
     color: var(--white);
     font-family: var(--main-font);
     font-size: 16px;
@@ -1848,7 +1850,8 @@ section {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
+    padding-left: 42px;
     color: var(--white);
     font-family: var(--main-font);
     font-size: 16px;
@@ -1916,7 +1919,8 @@ section {
     border-radius: 4px;
     box-sizing: border-box;
     margin-left: 12px;
-    text-align: center;
+    text-align: left;
+    padding-left: 42px;
     color: var(--white);
     font-family: var(--main-font);
     font-size: 16px;
